@@ -1,0 +1,50 @@
+*{
+    font-family: 'Courier New';
+}
+h3{
+ color: purple;
+}
+h1 , h3{
+    color: brown;
+}
+#login{
+    color: red;
+    background-color: black;
+}
+#signup{
+    color: red;
+    background-color: black;
+}
+p a {
+    color: purple;
+    background-color: yellow;
+}
+p + h3 {
+    text-decoration: purple underline;
+}
+Div > input {
+    background-color: rgb(20, 18, 18);
+}
+
+input[type="text"]{ color: red;
+}
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+h3:hover {
+    text-decoration: none;
+    color: rgb(88, 139, 0);
+}
+button:active{
+    background-color: pink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    animation: both;
+}
+input[type="radio"]:checked +label{ 
+    color: red;
+    font-weight: bold;
+}
