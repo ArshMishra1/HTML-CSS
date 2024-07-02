@@ -1,0 +1,32 @@
+div{
+height: 400px;
+ width: 200px;
+background-color: red;
+                                        /* border long form */
+border-width: 5px;
+border-style: dotted;
+border-color: black;
+
+                                        /* border short hands property */
+border: 2px dotted darkblue;
+                                        /* borderside */
+border-left: 5px solid yellow;
+border-right: 5px solid black;
+border-top: 5px solid black;
+                                       /* borderradius */
+border-radius: 10px;
+/* border-top-left-radius: 0%;*/
+                                        /* padding */
+padding-left: 5px;
+padding-top: 20px;                    /* margin */
+margin-bottom: 25px;     
+                                   /* margin shorthands property           */
+margin: 20px 25px 50px 45px;                               
+}
+button{
+    background-color: yellowgreen;
+     color: white;                 /*  padding shorthands  property */
+    padding: 1px 2px 3px 4px;
+    border: 2px solid black;
+    border-radius: 2px;
+}

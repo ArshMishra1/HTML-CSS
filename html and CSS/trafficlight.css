@@ -1,0 +1,35 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+   
+}
+#R{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
+#Y{
+    
+    background-color: rgb(255, 242, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
+#G{
+    
+    background-color: rgb(53, 109, 39);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid black;
+   
+}
