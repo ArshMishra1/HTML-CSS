@@ -1,0 +1,9 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    background-image: url(images.webp) ;
+    margin: 10px auto;
+    background-size: cover;
+
+}
