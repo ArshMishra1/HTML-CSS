@@ -1,0 +1,55 @@
+
+#flexbox{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+div{
+    width: 100px;
+    height: 80px;
+    border: 2px rgb(7, 6, 6) solid;
+    background-color: chocolate;
+    border-radius: 5px;
+    box-shadow: 2px 2px  8px red;
+    text-align: center;
+    color: yellow;
+    }
+nav{
+    width: 900px;
+    height: 50px;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    background-color: palegoldenrod;
+    
+   
+    
+}
+.n{
+    font-size: 20px;
+    /* margin-right: 50px; */
+    margin: 2px 2px 2px 50px ;
+}
+#search{
+    margin-left:100px ;
+    width: 224px;
+    height: 30px;
+   border-radius: 15px; 
+   background-color: aqua;
+}
+button{
+
+    margin-left:10px ;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px; 
+    font-size: 1em;
+    
+}
