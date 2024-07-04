@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+    /* animation-name:fontanimation; */
+    animation-name:Canimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-duration: normal;
+}
+/* @keyframes fontanimation{
+    form{font-size:20px}
+    to{
+        font-size:40px}
+    } */
+@keyframes Canimation{
+        form{background-color: red;
+
+            
+        color:white;
+    border-radius: 50%;
+}
+
+        to{
+            background-color:green;
+            color:rgb(151, 160, 26);
+            border-radius: 70%;}
+        }

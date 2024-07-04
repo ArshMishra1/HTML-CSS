@@ -1,0 +1,33 @@
+.Container{
+    /* height: 100vh;
+    width: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.D{
+     width: 60vh;
+    height: 60vh;  
+    margin: 10px;  
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+img{
+    height: 200px;
+    width: 350px;
+border-radius: 10px;
+}
+p{
+    padding-bottom: 15px;
+}
+span{
+    color: orange;
+}
+@media only screen and (min-width:200px) and (max-width:767px){
+    .Container{
+        flex-wrap: wrap;
+    }
+    h1{
+        text-align: center;
+    }
+}
